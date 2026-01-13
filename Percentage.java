@@ -1,6 +1,9 @@
+// Question: 1
+// Write a program that prints the percentage marks of high school graduates by taking input of sum of their obtained marks and Maximum marks.
+
 import java.util.Scanner;
 
-public class percent {
+public class Percentage {
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
@@ -25,10 +28,8 @@ public class percent {
         }
 
         per = obt / max * 100;
-        System.out.print("Your percentage is: ");
-        System.out.print(per);
-        System.out.print("%");
-
+        System.out.print("Your percentage is: " + per + "%");
         input.close();
     }
 }
+
