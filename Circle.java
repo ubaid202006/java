@@ -1,3 +1,7 @@
+// Question: 2
+// Write a program that takes input of radius of circle and prints its circumference and area.
+
+
 import java.util.Scanner;
 
 public class Circle {
