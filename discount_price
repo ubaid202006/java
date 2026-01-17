@@ -1,0 +1,23 @@
+// Question: 3
+// Discounted Selling price is to be calculated if original selling price and discount percentage is given. Write a program to calculate and print discounted selling price of the user given
+// two inputs (1) original selling price and (2) discounted selling price.
+
+
+import java.util.Scanner;
+
+public class discount_Price {
+    public static void main(String[] args) {
+        double csp,dp,dsp;
+        Scanner read = new Scanner(System.in);
+        System.out.print("Enter the Current selling price:  ");
+        csp = read.nextDouble();
+        System.out.print("Enter the discount percentage:  ");
+        dp = read.nextDouble();
+        double da;
+        da = dp * csp / 100;
+        dsp = csp - da;
+        System.out.print("Discount price = ");
+        System.out.println(dsp);
+
+    }
+}
